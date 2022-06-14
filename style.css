@@ -84,7 +84,7 @@ h3 {
   font-weight: 300;
 }
 
-#AboutMe, #language, #language-2, #language-3 {
+#AboutMe, #language {
   display: flex;
   justify-content: center;
 }
