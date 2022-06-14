@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+</head>
+<body>
+    <header class ="header">
+  <div class="container">
+      <nav class="nav">
+          <ul class="nav-list">
+              <li>
+                  <a href="#Contacts" class="nav-link">Contacts</a>
+                </li>
+              <li>
+                  <a href="#AboutMe" class="nav-link">About Me</a>
+                </li>
+              <li>
+                  <a href="#Skills" class="nav-link">Skills</a>
+                </li>
+              
+          </ul>
+      </nav>
+  </div>
+    </header>
+    <img src="./assets/img/1(2).jpg" alt="personal photo" class="photo" />
+    <main class="main">
+    
+          <h1>
+            Danila Baranau 
+          </h1>
+     
+      <h2>Personal Information</h2>
+      <section class="section">
+          <h3>Contacts</h3>
+          <ul id="Contacts" class="main-text">
+              <li id="Contact-1">Kryg#1191</li>
+              <li id="Contact-2">DanilaKryg</li>
+              <li id="Contact-3">dnikolaena@gmail.com</li>
+          </ul>
+      </section>
+      <section class="section">
+          <div>
+              <h3>About Me</h3>
+          </div>
+          <span class="main-text" id="AboutMe">
+            I'm a second year student of UAM. <br>
+            Already for a half-year i'm learning programming language (JavaScrypt) <br>
+            and i want to improve my skills in Front-End, <br>
+            because in future i hope to link my life to programming. <br>
+            That's why i trying to learn new thing in my life 
+          </span>
+      </section>
+      <h2 id="experience">My experience</h2>
+      <section class="section">
+         <h3></h3>
+         <ul class="main-text" id="Skills">
+            <li>JS</li>
+            <li>HTML & CSS</li>
+            <li>Git, GitHub</li>
+            <li>Photoshop</li>
+            <li>DaVinci Resolve</li>
+         </ul>
+      </section>
+
+      <section class="section">
+       <div class="container">
+          <h3>Code Example</h3>
+       </div>
+       <pre class="main-text" id="code">
+           <code>
+            function Calculator () {
+                this.read = function () {
+                    this.a = +prompt('a?','');
+                    this.b = +prompt('b','');
+                };
+                this.sum = function () {
+                    return this.a + this.b;
+                };
+                this.mul = function () {
+                    return this.a * this.b;
+                };
+            }
+            let calculator = new Calculator();
+            calculator.read();
+            
+            alert( "Sum=" + calculator.sum() );
+            alert( "Mul=" + calculator.mul() );
+           </code>
+       </pre>
+      </section>
+      
+      <section class="section">
+        <h3 class="title">My education</h3>
+        <ul class="main-text" id="education">
+            <li>UAM (faculty of political science and journalism) - In Process  </li>
+            <li>RS PreSchool - In Process</li>
+        </ul>
+      </section>
+
+      <section class="section">
+          <div class="language-container">
+         <h3>Languages </h3>
+        </div>
+          <span class="main-text" id="language">
+           English: B1 - B2 <br>
+          </span>
+          <span class="main-text" id="language">
+           Polish: B2 - C1 <br>
+           </span>
+           <span class="main-text" id="language">
+           French: A1 - A2 <br>
+            </span>
+      </section>
+      
+      <section class="section">
+          <h3>Projects</h3>
+          <div class="projects">
+            <a href="https://dkryg.github.io/rsschool-cv/cv" class="project">My first CV Task</a>
+          </div>
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+           <a href="https://github.com/DKryg" class="nav-link">GitHub</a>
+           <span id="time">
+               2022
+            </span>
+           <a href="https://rs.school/js-stage0/" class="nav-link">RSSchool</a>
+      </div>
+    </footer>
+  </body>
+</html>
